@@ -1,4 +1,32 @@
 
+DROP TABLE IF EXISTS absenttrans;
+DROP TABLE IF EXISTS download;
+DROP TABLE IF EXISTS download_file;
+DROP TABLE IF EXISTS forum;
+
+DROP TABLE IF EXISTS latetrans;
+DROP TABLE IF EXISTS program;
+DROP TABLE IF EXISTS shiftfile;
+DROP TABLE IF EXISTS shifttable;
+DROP TABLE IF EXISTS taxfile;
+DROP TABLE IF EXISTS taxytdfile;
+DROP TABLE IF EXISTS worktrans;
+
+DROP VIEW IF EXISTS employeelist;
+DROP VIEW IF EXISTS empname;
+DROP VIEW IF EXISTS hdmfreport;
+DROP VIEW IF EXISTS incomefilelist;
+DROP VIEW IF EXISTS incometranslist;
+DROP VIEW IF EXISTS ottablelist;
+DROP VIEW IF EXISTS payrollatmlist;
+DROP VIEW IF EXISTS payrollotclist;
+DROP VIEW IF EXISTS payrollperiodlist;
+DROP VIEW IF EXISTS payrollytdlist;
+DROP VIEW IF EXISTS phreport;
+DROP VIEW IF EXISTS sssreport;
+DROP VIEW IF EXISTS taxreport;
+DROP VIEW IF EXISTS taxytdlist;
+
 DROP TABLE IF EXISTS customer;
 DROP TABLE IF EXISTS dvd;
 DROP TABLE IF EXISTS movie;
