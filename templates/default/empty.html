@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title><?page_title?>Time and Attendance with Payroll Management Software<?/?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="shortcut icon" href="<?template?>images/favicon.ico<?/?>" type="image/x-icon"  />
+<link rel="shortcut icon" href="<?template?>images/favicon.ico<?/?>" />
+
+<link rel="stylesheet" type="text/css" href="<?template?>css/jquery-ui.css<?/?>" />
+<link rel="stylesheet" type="text/css" href="<?template?>css/atk-main.css<?/?>" />
+<link rel="stylesheet" type="text/css" href="<?template?>css/atk-visuals.css<?/?>" />
+<link rel="stylesheet" type="text/css" href="<?template?>css/atk-icons.css<?/?>" />
+<link rel="stylesheet" type="text/css" href="<?template?>css/atk-gs10.css<?/?>" />
+<link rel="stylesheet" type="text/css" href="<?template?>css/atk-gs10-fluid.css<?/?>" />
+<link rel="stylesheet" type="text/css" href="<?template?>css/atk-custom.css<?/?>" />
+<!--[if lt IE 9]>
+<script src=<?template?>css/ie.js<?/?>"></script>
+<![endif]-->
+<?$js_include?>
+
+<script type="text/javascript">
+$(function(){
+<?$document_ready?>
+});
+</script>
+
+</head>
+<body class="<?fullscreen?>atk-fullscreen<?/?> gs-10-fluid atk-sticky">
+<div class="gs-wrap atk-layout">
+
+ <div id="header">
+		<?logo?>
+		<a href="." target="_blank">
+		<div id="atk-logo" class="ui-widget-header float-left"  style="width: 200px; height: 80px;"><img src="<?template?>images/logo.png<?/?>" alt="Agile Toolkit" border="0" /></div>
+		</a>
+		<?/logo?>
+		<div id="header-right">
+			<div id="atk-version"><b><?name?>Sample Demo Company<?/?></b><br/>
+				<i><?$version?></i></div>
+		</div>
+	</div>
+	<div id="Content">
+		<?Content?>
+		<?/?>
+ </div>
+	<div id="footer-guard"></div>
+</div>
+<div id="footer" class="gs-wrap">
+ <?footer_text?>
+Time and Attendance with Payroll Management™ Software by
+<a href="http://www.facebook.com/opentechnologist">Mario Flores Rey II</a>
+&copy; 2010-2012 All Rights Reserved
+ <?/?>
+</div>
+</body>
+</html>

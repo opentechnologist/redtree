@@ -1,0 +1,31 @@
+
+Below are the steps on how to install and run this software:
+
+STEP 1. Download the modified version of atk4 core archive: http://www.github.com/opentechnologist/atk4/archive/4-1.zip
+
+STEP 2. Download the atk4 4.1.x addons archive: http://www.github.com/opentechnologist/atk4-addons/archive/4-addons.zip
+
+STEP 3. Download the RedTree archive: http://www.github.com/opentechnologist/redtree/archive/redtree.zip
+
+STEP 4. On your /htdocs/ folder, create the necessary folders
+
+           /htdocs/atk4-1/
+           /htdocs/atk4-1/core/
+           /htdocs/atk4-1/addons/
+           /htdocs/redtree/
+
+STEP 5. Extract the atk4 core archive into folder: /htdocs/atk4-1/core/
+
+STEP 6. Extract the atk4 addons archive into folder: /htdocs/atk4-1/addons/
+
+STEP 7. Extract the redtree archive into folder: /htdocs/redtree/
+
+STEP 8. Create the necessary tables using the SQL file: /htdocs/redtree/redtree.sql
+
+STEP 9. To access the RedTree page on your local web server: (settings can be different)
+
+           http://localhost:8080/redtree/
+           demo/demo
+
+           http://localhost:8080/redtree/admin/
+           admin/demo
