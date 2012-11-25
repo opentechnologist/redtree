@@ -1,7 +1,8 @@
 
 Below are the steps on how to install and run this software:
 
-STEP 1. Download the modified version of atk4 core archive:
+
+STEP 1. Download the atk4 core archive modified for redtree version:
 
            http://www.github.com/opentechnologist/atk4/archive/4.1.zip
 
@@ -13,27 +14,45 @@ STEP 3. Download the RedTree archive:
 
            http://www.github.com/opentechnologist/redtree/archive/master.zip
 
-STEP 4. On your /htdocs/ folder, create the necessary folders:
+STEP 4. On your /htdocs/ folder, create the following folders:
 
            /htdocs/atk4-1/
            /htdocs/atk4-1/core/
            /htdocs/atk4-1/addons/
            /htdocs/redtree/
 
-STEP 5. Extract the atk4 core archive into folder: /htdocs/atk4-1/core/
+STEP 5. Extract the atk4 core archive into folder:
 
-STEP 6. Extract the atk4 addons archive into folder: /htdocs/atk4-1/addons/
+           /htdocs/atk4-1/core/
 
-STEP 7. Extract the redtree archive into folder: /htdocs/redtree/
+STEP 6. Extract the atk4 addons archive into folder:
 
-STEP 8. Create the necessary tables using the SQL file: /htdocs/redtree/redtree.sql
+           /htdocs/atk4-1/addons/
 
-STEP 9. To access the RedTree page on your local web server: (settings can be different)
+STEP 7. Extract the RedTree archive into folder:
+
+           /htdocs/redtree/
+
+STEP 8. Create new database in MySQL and create tables using SQL file:
+
+           /htdocs/redtree/redtree.sql
+
+STEP 9. Edit the default configuration file as necessary:
+
+           /htdocs/redtree/config-default.php
+
+STEP 10. Access the RedTree homepage on your local web server:
 
            http://localhost:8080/redtree/
            demo/demo
 
            http://localhost:8080/redtree/admin/
            admin/demo
+
+
+IMPORTANT: some settings may differ between platforms and configurations.
+           database schema was intentionally left incomplete.
+           due to this, some pages may not work properly as expected.
+
 
 last update: 2012-11-25
