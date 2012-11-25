@@ -2,5 +2,6 @@
 .svn
 *.swo
 *.bak
+*.sql
 *.sql.fail
 *.sql.ok
