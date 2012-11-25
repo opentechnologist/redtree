@@ -25,10 +25,12 @@ no warranties whatsoever, implied or otherwise. All bugs reserved.
 
 Please read the INSTALL document on how to install and run this software.
 
-http://www.github.com/opentechnologist/redtree/blob/INSTALL
+http://www.github.com/opentechnologist/redtree/master/INSTALL
 
 I would appreciate some constructive feedback. :)
 
 
 Mario Flores Rey II
 http://fb.me/opentechnologist
+
+last update: 2012-11-25
